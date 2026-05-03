@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest a new feature or improvement.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem you're trying to solve?
+      description: Describe the situation or workflow this would improve. Skip "X but better" — concrete pain helps more.
+      placeholder: "I share a Codex plan with my team and would like to see who used what fraction this week."
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: How would you like this to work? Sketches / mocks welcome.
+    validations:
+      required: false

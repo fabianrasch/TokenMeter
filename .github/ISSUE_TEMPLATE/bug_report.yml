@@ -1,0 +1,52 @@
+name: Bug report
+description: Something isn't working — wrong values, the popover is stuck, login won't complete, etc.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: A clear description of the bug. Screenshots help if the issue is visual.
+      placeholder: "After I sign in to ChatGPT the popover still says ‘Log in to ChatGPT’."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Right-click the gauge → Log in to ChatGPT
+        2. Complete OAuth in the browser
+        3. Click the gauge — block still shows the connect button
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: TokenMeter version
+      description: Right-click the gauge → About TokenMeter, or run `defaults read /Applications/TokenMeter.app/Contents/Info CFBundleShortVersionString`.
+      placeholder: "0.7.4"
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "14.4 (Sonoma)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Affected provider
+      options:
+        - Claude
+        - ChatGPT
+        - Both
+        - Not provider-specific
+    validations:
+      required: true
