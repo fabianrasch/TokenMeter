@@ -6,6 +6,18 @@
         <description>Most recent TokenMeter releases.</description>
         <language>en</language>
         <item>
+            <title>Version 0.7.4</title>
+            <pubDate>Sun, 03 May 2026 22:22:14 +0000</pubDate>
+            <sparkle:version>0.7.4</sparkle:version>
+            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Better ChatGPT login UX (no more "I logged in but the popover still says Log in"), instant refresh on codex login, redesigned drag-to-install DMG with blueprint backdrop, plus all the v0.7.3 fixes (rate_limits parsing, Claude poller resilience, new glass-gauge app icon).]]></description>
+            <enclosure url="https://github.com/fabianrasch/tokenmeter/releases/download/v0.7.4/TokenMeter.dmg"
+                       sparkle:edSignature="akTaXDX33SmG1o/VQMJ12AXKZTzLuz6WGyvsfIcGYBkr2xFCu0t7GTUYPpagDgxC9Sxzj6LvhF2RTk7++wOsDw=="
+                       length="4022584"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 0.7.2</title>
             <pubDate>Tue, 28 Apr 2026 14:28:09 +0000</pubDate>
             <sparkle:version>0.7.2</sparkle:version>
