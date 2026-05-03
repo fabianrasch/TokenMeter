@@ -6,6 +6,18 @@
         <description>Most recent TokenMeter releases.</description>
         <language>en</language>
         <item>
+            <title>Version 0.7.3</title>
+            <pubDate>Sun, 03 May 2026 21:37:57 +0000</pubDate>
+            <sparkle:version>0.7.3</sparkle:version>
+            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[ChatGPT login fix: popover stayed on "Log in to ChatGPT" after a successful codex login because newer Codex CLI versions emit additional rate_limits events with limit_id="premium" and null primary/secondary that pinned the dashboard to a no-data state. Also: more resilient Claude poller (recovers from stuck WebView after laptop sleep), instant popover refresh after each successful poll, stale-cache guard.]]></description>
+            <enclosure url="https://github.com/fabianrasch/tokenmeter/releases/download/v0.7.3/TokenMeter.dmg"
+                       sparkle:edSignature="/Kro6Nwu9puhMEOE7B6Wvx+JFSVWi2BHrgQ3tj9RSjR0HTygyenDLwijqPtxtvXmG7LLM7U4Db7STcmcmJ/gBw=="
+                       length="1724232"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 0.7.2</title>
             <pubDate>Tue, 28 Apr 2026 14:28:09 +0000</pubDate>
             <sparkle:version>0.7.2</sparkle:version>
