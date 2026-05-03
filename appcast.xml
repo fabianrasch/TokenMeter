@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>TokenMeter</title>
-        <link>https://github.com/fabianrasch/llm-bar</link>
+        <link>https://github.com/fabianrasch/tokenmeter</link>
         <description>Most recent TokenMeter releases.</description>
         <language>en</language>
         <item>
