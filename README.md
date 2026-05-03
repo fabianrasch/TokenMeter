@@ -46,6 +46,15 @@ TokenMeter checks for new releases once a day. When one's available you'll see a
 - TokenMeter only talks to `claude.ai` (your own session, your own data) and `github.com` (update checks)
 - No analytics, no tracking, no third-party services
 
+## About this repository
+
+This is the public **download + auto-update** home for TokenMeter. It hosts the
+release binaries (`.dmg` / `.app.zip`) and the Sparkle [appcast](appcast.xml).
+The application source code lives in a separate private repository.
+
+Found a bug or have a feature request? Open an
+[issue](https://github.com/fabianrasch/tokenmeter/issues).
+
 ## License
 
-MIT
+TokenMeter is released under the [MIT License](LICENSE).
