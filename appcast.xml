@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>TokenMeter</title>
-        <link>https://github.com/fabianrasch/tokenmeter</link>
-        <description>Most recent TokenMeter releases.</description>
+        <link>https://github.com/fabianrasch/TokenMeter</link>
+        <description>Most recent TokenMeter release.</description>
         <language>en</language>
         <item>
             <title>Version 0.7.4</title>
@@ -11,46 +11,10 @@
             <sparkle:version>0.7.4</sparkle:version>
             <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[Better ChatGPT login UX (no more "I logged in but the popover still says Log in"), instant refresh on codex login, redesigned drag-to-install DMG with blueprint backdrop, plus all the v0.7.3 fixes (rate_limits parsing, Claude poller resilience, new glass-gauge app icon).]]></description>
-            <enclosure url="https://github.com/fabianrasch/tokenmeter/releases/download/v0.7.4/TokenMeter.dmg"
+            <description><![CDATA[Better ChatGPT login UX, instant refresh on codex login, redesigned install DMG, glass-gauge app icon.]]></description>
+            <enclosure url="https://github.com/fabianrasch/TokenMeter/releases/download/v0.7.4/TokenMeter.dmg"
                        sparkle:edSignature="akTaXDX33SmG1o/VQMJ12AXKZTzLuz6WGyvsfIcGYBkr2xFCu0t7GTUYPpagDgxC9Sxzj6LvhF2RTk7++wOsDw=="
                        length="4022584"
-                       type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 0.7.2</title>
-            <pubDate>Tue, 28 Apr 2026 14:28:09 +0000</pubDate>
-            <sparkle:version>0.7.2</sparkle:version>
-            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[Update feed and downloads moved to the public showcase repo. Source code now lives in a private repo. Functionally identical to v0.7.1 — release plumbing only.]]></description>
-            <enclosure url="https://github.com/fabianrasch/tokenmeter/releases/download/v0.7.2/TokenMeter.dmg"
-                       sparkle:edSignature="MDlkG9XnvmIurW+5T26Ww9h4KGeLJdIYuPkJg/tzGCXubp//nb3kmdZnuJt6H0cff6YCHYlvcvV0x4H0zFEwDA=="
-                       length="1721921"
-                       type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 0.7.1</title>
-            <pubDate>Tue, 28 Apr 2026 14:21:09 +0000</pubDate>
-            <sparkle:version>0.7.1</sparkle:version>
-            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[Polish + edge-case fixes: Google One Tap suppressed in login window, single-instance guard prevents two gauge icons, Sign out for both Claude and ChatGPT, sign-out actually clears all state. Connect-confirmation overlay tightened.]]></description>
-            <enclosure url="https://github.com/fabianrasch/llm-bar/releases/download/v0.7.1/TokenMeter.dmg"
-                       sparkle:edSignature="fHcmclKWT807ebq+iRS5Au+Q4KUYoM8GDkevsYe3lXff9HLOTldlqtT9ojIY/DEiJMFDm22pwRICZckWR00JBQ=="
-                       length="1721846"
-                       type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 0.7.0</title>
-            <pubDate>Tue, 28 Apr 2026 12:57:21 +0000</pubDate>
-            <sparkle:version>0.7.0</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[Auto-update via Sparkle: TokenMeter now checks for updates daily. New: in-app login flow that handles Google OAuth popups; brief 'Connected' confirmation before the login window dismisses.]]></description>
-            <enclosure url="https://github.com/fabianrasch/llm-bar/releases/download/v0.7.0/TokenMeter.dmg"
-                       sparkle:edSignature="j0yeghwirKA4Ev4H6gtAAJPUVmvbwWOfA1KTsgirdmJ5/4xgj1D6yzpT4+/RBJdjxB4Ohm6pUv+tR+HVUqE/AA=="
-                       length="1722858"
                        type="application/octet-stream"/>
         </item>
     </channel>
