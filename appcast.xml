@@ -7,14 +7,14 @@
         <language>en</language>
         <item>
             <title>Version 0.7.4</title>
-            <pubDate>Sun, 03 May 2026 23:10:55 +0000</pubDate>
+            <pubDate>Sun, 03 May 2026 23:15:32 +0000</pubDate>
             <sparkle:version>0.7.4</sparkle:version>
             <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[Better ChatGPT login UX, instant refresh on codex login, redesigned install DMG, glass-gauge app icon.]]></description>
             <enclosure url="https://github.com/fabianrasch/TokenMeter/releases/download/v0.7.4/TokenMeter.dmg"
-                       sparkle:edSignature="7Ujmb5UxwZ5Kvz372hdxmP1giu0Db+te6q5oIYDo8XWM02Z+dKqaefghcs4zVIYBI2/tA+cl8hagLjJ7VpW8Ag=="
-                       length="3884485"
+                       sparkle:edSignature="bqWl36bDPoZ08irAw5YEohnI7HkxojQ2zBWLLOMbNtBQVJhvnqHhgrnKdbNI53MfqWcYcf8oLFVQe5B3atMwAg=="
+                       length="3894271"
                        type="application/octet-stream"/>
         </item>
     </channel>
